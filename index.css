@@ -1,0 +1,193 @@
+body{
+
+    height: 99vh;
+    width: 99wd;
+    background-color: black;
+    
+}
+
+.bg-secondary{
+
+    background-color: black ;
+}
+
+#container {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+     
+      
+    }
+
+.div-bienvenida{
+
+    height: auto;
+    width: 100%;
+    display: flex;
+    margin-top: 15rem;
+
+
+}
+
+.div-msg-bienvenida{
+    height: auto;
+    width: 50%;
+    display: flex;
+    color:wheat;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+h2{
+
+    font-size: 3rem;
+
+}
+
+h4{
+
+    text-align: center;
+    padding: 5rem;
+    
+}
+
+.div-img-bienvenida{
+
+    height: auto;
+    width: 50%;
+    display: flex;
+    color:wheat;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.img-bienvenida{
+
+    height: 90%;
+    width: 70%;
+
+}
+
+h3{
+
+    text-align: center;
+}
+
+
+.title-ranking{
+
+    height: auto;
+    width: 100%;
+    display: flex;
+    margin-top: 15rem;
+    justify-content: center;
+    align-items: center;
+    color:wheat;
+
+
+
+}
+
+#cards-home{
+
+
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin-top: 5rem;
+
+
+
+}
+
+
+.card-home{
+
+    width: 15%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2rem;
+    text-align: center;
+    background-color: black;
+    border-radius: 10px;
+    margin: 2rem;
+    font-style: italic;
+    color:wheat;
+
+}
+
+
+
+
+
+  .img-home{
+
+    height: 100%;
+    width: 80%;
+    transition: transform .5s; 
+    border-radius: 2px;
+
+    
+    }
+
+    .img-home:hover{
+        box-shadow: 10px 5px 5px black;
+        transform: scale(1.7); 
+        height: auto;
+        border-radius: 10px;
+    
+    
+      }
+    
+    
+    #contentcard-home{
+    
+      height: 60%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      flex-wrap: wrap;
+      margin-bottom: 1rem;
+      
+      
+    
+    }
+
+    h5,h6{
+
+        margin: 1rem;
+    }
+
+    .btn-vermas{
+
+        width: 55%;
+        height: 22%;
+        margin: 2rem;
+        border-radius: 8px;
+        font-weight: 400;
+
+    }
+
+    .btn-vermas:hover{
+
+        background-color: #b9b9b9;
+        cursor: pointer;
+    }
+
+
+
