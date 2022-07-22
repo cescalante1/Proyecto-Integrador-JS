@@ -15,7 +15,7 @@ const renderbtnvermas =  async (peli) => {
 
     
         try {
-            const response = await fetch(`http://www.omdbapi.com/?t=${peli}&apikey=a9f69a44`);
+            const response = await fetch(`https://www.omdbapi.com/?t=${peli}&apikey=a9f69a44`);
             const data = await response.json();
 
             const mov = localStorage.setItem('Busqueda', JSON.stringify(data));
