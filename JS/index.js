@@ -183,7 +183,7 @@ let PELICULAS = [
         género:"Biografía, Crimen, Drama",
         score:8.7,
         reparto:"Robert De Niro, Ray Liotta, Joe Pesci",
-        imagen:"https://pics.filmaffinity.com/Uno_de_los_nuestros-722948658-large.jpg",
+        imagen:"https://mx.web.img3.acsta.net/pictures/18/06/06/04/05/3620058.jpg",
     
     },
 
@@ -228,6 +228,15 @@ let PELICULAS = [
 
 const contenedor = document.getElementById("container");
 const tarjeta = document.getElementById("cards-home");
+const btnbusqueda = document.getElementById("btnbuscar");
+const inputbusqueda = document.getElementById("busqueda");
+
+
+
+
+const arraypelis = localStorage.getItem('Peliculas');
+
+const arrayparseado = JSON.parse(arraypelis);
 
 
 
@@ -277,7 +286,7 @@ const rendercards = () =>{
 
 
         const redirvermas =document.createElement('a');
-        redirvermas.setAttribute('href',"vermas.js");
+        redirvermas.setAttribute('href','vermas.html');
         const btnvermas = document.createElement('button');
         btnvermas.classList.add('btn-vermas');
         const renderbtnvermas = document.createTextNode('Ver más...');
@@ -289,15 +298,21 @@ const rendercards = () =>{
         card.appendChild(contenedortarjeta);
         tarjeta.appendChild(card);
 
-        
-
-        // const descripcionpelicula = document.createElement('p');
-        // const renderdescpelicula = document.createTextNode(`Titulo: ${pelicula.descripcion}`);
-        // descripcionpelicula.appendChild(renderdescpelicula);
-        // contenedortarjeta.appendChild(descripcionpelicula);
 
 
+        btnvermas.addEventListener('click',(e) => {
 
+       
+            const pelivermas = localStorage.setItem('Pelicula', JSON.stringify(pelicula.titulo));
+
+            
+
+
+        });
+
+
+
+       
 
 
     });
@@ -308,4 +323,28 @@ const rendercards = () =>{
 
 };
 
-rendercards();
+
+
+
+
+
+btnbusqueda.addEventListener('click',(e) => {
+
+       
+    const busquedapeli = localStorage.setItem('Busqueda', JSON.stringify(inputbusqueda.value).toLowerCase());
+
+    
+
+
+    
+
+
+});
+
+
+
+
+
+
+
+

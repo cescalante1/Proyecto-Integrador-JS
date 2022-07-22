@@ -22,6 +22,14 @@ body{
       
     }
 
+
+#busqueda{
+
+    height: 60%;
+    width: 20%; 
+
+}    
+
 .div-bienvenida{
 
     height: auto;
@@ -105,7 +113,7 @@ h3{
     justify-content:space-around;
     flex-wrap: wrap;
     overflow: hidden;
-    margin-top: 5rem;
+    margin-top: 3rem;
 
 
 

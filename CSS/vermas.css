@@ -1,0 +1,79 @@
+.card-vermas{
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-style: italic;
+    color:wheat;
+    margin-top: 12rem;
+
+
+}
+
+.imgcard-vermas{
+    height: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+
+.img-vermas{
+
+    height: 90%;
+    width: 50%;
+    border-radius: 2px;
+    display: flex;
+
+    
+}
+
+.contentcard-vermas{
+
+
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 3rem;
+
+
+
+}
+
+.titulovermas{
+
+    padding: 1rem;
+
+    
+}
+
+.contentvermas{
+
+    font-size: 130%;
+    padding: 1rem;
+}
+
+.btn-volver-vermas{
+
+
+    width: 80%;
+    height: 50%;
+    padding: 0.5rem;
+    margin: 2rem;
+    border-radius: 8px;
+    font-weight: 400;
+}
+
+.btn-volver-vermas:hover{
+
+    background-color: #b9b9b9;
+    cursor: pointer;
+}
