@@ -24,7 +24,7 @@
 
 .img-vermas{
 
-    height: 90%;
+    height: 80%;
     width: 50%;
     border-radius: 2px;
     display: flex;
@@ -74,6 +74,7 @@
 
 .btn-volver-vermas:hover{
 
-    background-color: #b9b9b9;
+    background-color: purple;
+    color: white;
     cursor: pointer;
 }
