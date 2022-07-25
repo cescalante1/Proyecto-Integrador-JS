@@ -1,0 +1,263 @@
+
+.main-ranking{
+
+    
+    width: 98%;
+    height: auto;
+    margin-top: 15rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+.container-ranking{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.agregar-pelicula{
+
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form-add{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.input-form{
+
+    width: 20%;
+    height: 80%;
+    display: flex;
+    background-color: black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: antiquewhite;
+    margin: 0.3rem;
+}
+
+
+.input-modificacion{
+
+    width: 80%;
+    height: 5%;
+    display: flex;
+    background-color: black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: antiquewhite;
+    margin: 2rem;
+}
+
+.btn-agregar{
+
+
+
+        width: 8%;
+        height: 50%;
+        padding: 0.4rem;
+        display: flex;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        margin: 2rem;
+        background-color: black;
+        color: wheat;
+        font-size: 130%;
+        align-items: center;
+        justify-content: center;
+
+}
+
+.btn-agregar:hover{
+
+    background-color: antiquewhite;
+    color:black;
+    cursor:grab;
+    border-radius: 5px;
+
+}
+
+.titulo-ranking{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    padding: 3rem;
+    border-top: solid;
+}
+
+.titleranking{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+
+}
+
+#mi-ranking{
+
+    width: 98vw;
+    height: 98vh;
+    display: flex;
+    justify-content:baseline;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    
+}
+
+
+.card-ranking{
+
+    width: 18%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: black;
+    border-radius: 10px;
+    font-style: italic;
+    border: solid;
+    color:wheat;    
+    margin-left: 5rem;
+    margin-top: 2rem;
+    overflow:scroll;
+    overflow-x: hidden;
+    
+    
+
+}
+
+.imgcard-ranking{
+
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+
+
+
+
+
+  .img-ranking{
+
+    height: 100%;
+    width: 100%;
+    border-radius: 2px;
+
+    
+    }
+
+    
+    
+    .contentcard-ranking{
+    
+      height: auto;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+     
+           
+    
+    }
+
+
+    
+    .btn-card{
+
+        width: 70%;
+        height: 20%;
+        border-radius: 8px;
+        font-weight: 300;
+        padding:0.3rem;
+        margin: 1rem
+
+    }
+
+    .btn-card:hover{
+
+        background-color: purple;
+        cursor: pointer;
+        color: white;
+    }
+
+    .titulo-card{
+
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+
+    .titulocard-ranking{
+
+        text-align: center;
+        padding: 0.5rem;
+    }
+
+    p{
+
+        font-size: 110%;
+    }
+
+    .btn-confirmar{
+
+        width: 50%;
+        height: 10%;
+        border-radius: 8px;
+        font-weight: 300;
+        padding:0.3rem;
+        margin: 1rem
+
+
+    }
+
+    .btn-confirmar:hover{
+
+        background-color: purple;
+        cursor: pointer;
+        color: white;
+    
+    }

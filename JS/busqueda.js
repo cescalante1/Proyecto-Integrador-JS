@@ -61,6 +61,20 @@ const renderbtnvermas =  async (peli) => {
         
             const btnstarjeta = document.createElement('div');
             btnstarjeta.classList.add('btns-busqueda');
+
+            const titlebusqueda = document.createElement('h3');
+            const texttitlebusqueda = document.createTextNode("¡Intentalo de nuevo! Si tu película no aparece, probá con el título en inglés ;)");
+            titlebusqueda.appendChild(texttitlebusqueda);
+            contenedortarjeta.appendChild(titlebusqueda);
+
+            
+            
+            const imgtryagain = document.createElement('img');
+            imgtryagain.setAttribute('src',"CSS/try-again.png");
+            imgtryagain.classList.add("img-tryagain");
+            contenedortarjeta.appendChild(imgtryagain);
+
+
         
             const busquedanueva = document.createElement('input');
             busquedanueva.setAttribute('placeholder', "Buscar otra película ");
